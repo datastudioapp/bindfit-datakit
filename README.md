@@ -7,16 +7,16 @@ Bindfit is a binding constant fitting tool designed to work with classical supra
 
 ## Example usage
 ```
-dk reset                                   # Clear any previous outputs
-dk init                                    # Initialise the default run
-dk load data ./data/nmr11.csv              # Load input data
-dk set model "nmr1to1"                     # Set fit model
-dk set method "nelder-mead"                # Set fit method
-dk set inputParams.k.init 314              # Set initial parameter guess
-dk run                                     # Run algorithm
-dk show outputParams                       # View optimised parameters
-dk show summary                            # View fit summary
-dk view fitGraphMatplotlib                 # View fit graph
+ds reset                                   # Clear any previous outputs
+ds init                                    # Initialise the default run
+ds load data ./data/nmr11.csv              # Load input data
+ds set model "nmr1to1"                     # Set fit model
+ds set method "nelder-mead"                # Set fit method
+ds set inputParams.k.init 314              # Set initial parameter guess
+ds run                                     # Run algorithm
+ds show outputParams                       # View optimised parameters
+ds show summary                            # View fit summary
+ds view fitGraphMatplotlib                 # View fit graph
 ```
 
 ## Development
@@ -60,7 +60,7 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -e /PATH/TO/CLI
 
-dk  # Check CLI is installed
+ds  # Check CLI is installed
 ```
 
 See [Usage](#usage) for command reference.
