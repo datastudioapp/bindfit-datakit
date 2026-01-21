@@ -6,7 +6,29 @@ Bindfit is a binding constant fitting tool designed to work with classical supra
 * 💻 [Bindfit Python library GitHub](https://github.com/opendatastudio/bindfit)
 
 ## Example usage
+
+Initialise virtualenv and install DataStudio CLI:
+
+```bash
+python -m venv .venv
+pip install datastudio-cli
+
+# Test it works
+ds
 ```
+
+Ensure you build the Docker container first:
+
+```bash
+cd bindfit/container
+./build.sh
+```
+
+You can now run the datakit:
+
+```bash
+cd bindfit-datakit
+
 ds reset                                   # Clear any previous outputs
 ds init                                    # Initialise the default run
 ds load data ./data/nmr11.csv              # Load input data
