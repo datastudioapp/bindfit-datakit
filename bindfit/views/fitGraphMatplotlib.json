@@ -2,7 +2,7 @@
   "name": "fitGraphMatplotlib",
   "specType": "matplotlib",
   "specFile": "fitGraphMatplotlib.py",
-  "container": "datakits/bindfit",
+  "container": "datastudioapp/bindfit",
   "resources": [
     "data",
     "fit",

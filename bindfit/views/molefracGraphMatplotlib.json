@@ -2,7 +2,7 @@
   "name": "molefracGraphMatplotlib",
   "specType": "matplotlib",
   "specFile": "molefracGraphMatplotlib.py",
-  "container": "datakits/bindfit",
+  "container": "datastudioapp/bindfit",
   "resources": [
     "molefractions"
   ]
